@@ -1,17 +1,50 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using System.Collections;
 
+public enum panelsetcolor
+{
+	Red,
+	Blue,
+	Green,
+	White,
+};
+
 public class CubeMove : MonoBehaviour
 {
+	public panelsetcolor winnercolor;
+
+	private bool Colorgudge()
+	{
+
+		panelsetcolor checkcolor;
+
+		checkcolor = panelObject[0].GetComponent<ChangeColor>().mycolor;
+		Debug.Log("call" + checkcolor);
+		for (int i = 0; i < 6; i++)
+		{
+			if (checkcolor != panelObject[i].GetComponent<ChangeColor>().mycolor)
+			{
+				return false;
+			}
+		}
+
+		if (checkcolor == winnercolor)
+		{
+			return true;
+		}
+
+		return false;
+
+	}
+
 	Vector3 rotatePoint = Vector3.zero;  //‰ñ“]‚Ì’†S
 	Vector3 rotateAxis = Vector3.zero;   //‰ñ“]²
 	float cubeAngle = 0f;                //‰ñ“]Šp“x
 
+	public GameObject[] panelObject;
 	float cubeSizeHalf;                  //ƒLƒ…[ƒu‚Ì‘å‚«‚³‚Ì”¼•ª
 	bool isRotate = false;               //‰ñ“]’†‚É—§‚Âƒtƒ‰ƒOB‰ñ“]’†‚Í“ü—Í‚ğó‚¯•t‚¯‚È‚¢
-
+	bool latestisRotate = false;
 
 
 	void Start()
@@ -20,11 +53,15 @@ public class CubeMove : MonoBehaviour
 	}
 	
 
-		void Update()
+	void Update()
 	{
 		//‰ñ“]’†‚Í“ü—Í‚ğó‚¯•t‚¯‚È‚¢
 		if (isRotate)
+		{
+			latestisRotate = true;
+
 			return;
+		}
 
 		if (Input.GetKeyDown(KeyCode.RightArrow))
 		{
