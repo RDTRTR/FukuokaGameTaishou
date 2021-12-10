@@ -11,10 +11,6 @@ public enum panelsetcolor
 
 public class CubeMove : MonoBehaviour
 {
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 	public panelsetcolor winnercolor;
 
 	private bool Colorgudge()
@@ -41,55 +37,37 @@ public class CubeMove : MonoBehaviour
 
 	}
 
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 	Vector3 rotatePoint = Vector3.zero;  //回転の中心
 	Vector3 rotateAxis = Vector3.zero;   //回転軸
 	float cubeAngle = 0f;                //回転角度
 
 	public GameObject[] panelObject;
-<<<<<<< Updated upstream
-	float cubeSizeHalf;                  //キューブの大きさの半分
-	bool isRotate = false;               //回転中に立つフラグ。回転中は入力を受け付けない
-	bool latestisRotate = false;
-
-=======
 
 	float cubeSizeHalf;                  //キューブの大きさの半分
 	bool isRotate = false;               //回転中に立つフラグ。回転中は入力を受け付けない
 	bool latestisRotate = false;
->>>>>>> Stashed changes
+
+
 
 	void Start()
 	{
-
-
 		cubeSizeHalf = transform.localScale.x / 2f;
+	}
 
-<<<<<<< Updated upstream
+
 	void Update()
 	{
 		//回転中は入力を受け付けない
 		if (isRotate)
 		{
-=======
-	}
-	void Update()
-	{
-		//回転中は入力を受け付けない
-		if (isRotate) { 
-		
->>>>>>> Stashed changes
+
+
 			latestisRotate = true;
 
 			return;
 		}
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 
 		if (Input.GetKeyDown(KeyCode.RightArrow))
 		{
@@ -112,7 +90,8 @@ public class CubeMove : MonoBehaviour
 			rotateAxis = new Vector3(-1, 0, 0);
 		}
 		// 入力がない時はコルーチンを呼び出さないようにする
-		if (rotatePoint == Vector3.zero){
+		if (rotatePoint == Vector3.zero)
+		{
 			return;
 		}
 
@@ -156,4 +135,5 @@ public class CubeMove : MonoBehaviour
 
 		yield break;
 	}
+
 }
