@@ -1,0 +1,543 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'ja' Physical Memory: 16205 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/GA3/Documents/GitHub/FukuokaGameTaishou/PazPaz
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51063
+Successfully changed project path to: C:/Users/GA3/Documents/GitHub/FukuokaGameTaishou/PazPaz
+C:/Users/GA3/Documents/GitHub/FukuokaGameTaishou/PazPaz
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 27.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/GA3/Documents/GitHub/FukuokaGameTaishou/PazPaz/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   
+    VRAM:     6023 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001931 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.667 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1668ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (339ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (128ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (24ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002754 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F9F2CAF510 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F31589B0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F3394030 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F31589B0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F2EA8C30 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F31589B0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F2EA8C30 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F2C87430 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F882E290 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F3394030 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F814F060 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F3394030 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F2ECEE40 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.839 seconds
+Domain Reload Profiling:
+	ReloadAssembly (839ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (667ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.0 MB.
+System memory in use after: 70.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1874.
+Total: 2.220200 ms (FindLiveObjects: 0.139000 ms CreateObjectMapping: 0.048000 ms MarkObjects: 1.971300 ms  DeleteObjects: 0.061300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Teleportation Pad
+  artifactKey: Guid(a13dad83e9f10114e9075364f8163f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teleportation Pad using Guid(a13dad83e9f10114e9075364f8163f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6eb76f2004ae27185ab072ac7f0c25b') in 0.005495 seconds 
+  Import took 0.007315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.881189 seconds.
+  path: Assets/Title関連
+  artifactKey: Guid(fb048c50a9806f2459d333c307ebc4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Title関連 using Guid(fb048c50a9806f2459d333c307ebc4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0601d66c6644f26f6fb5b953bfa271a7') in 0.004669 seconds 
+  Import took 0.006902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.284475 seconds.
+  path: Assets/Scenes/Title
+  artifactKey: Guid(7c741a413f6e94f4cae9898788f4008f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title using Guid(7c741a413f6e94f4cae9898788f4008f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5292b57a5b37a9ad46e58fc97c8a95b0') in 0.010529 seconds 
+  Import took 0.013793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.999972 seconds.
+  path: Assets/Scenes/Title髢｢騾｣
+  artifactKey: Guid(1128e740da5349547aa2f523fd6a8817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title髢｢騾｣ using Guid(1128e740da5349547aa2f523fd6a8817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27f050955efff723f56f7535961953f') in 0.006842 seconds 
+  Import took 0.009378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042326 seconds.
+  path: Assets/Scenes/Title髢｢騾｣/Button.png
+  artifactKey: Guid(f06886ca08640a4499acbdacce9b7e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title髢｢騾｣/Button.png using Guid(f06886ca08640a4499acbdacce9b7e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2295ca3f4d6cc947724f484f28ae6d90') in 0.128168 seconds 
+  Import took 0.130811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Scenes/Title髢｢騾｣/GAGAGAGA-FREE.otf
+  artifactKey: Guid(404f54527f357ea4ba1eaef4725a2f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title髢｢騾｣/GAGAGAGA-FREE.otf using Guid(404f54527f357ea4ba1eaef4725a2f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f8caa596d9698f1636d6e03da870dd') in 0.053395 seconds 
+  Import took 0.055898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.915757 seconds.
+  path: Assets/Scenes/Title髢｢騾｣/驕ｸ謚樒判髱｢
+  artifactKey: Guid(97f2e03059abe4f44ac213a09371311f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title髢｢騾｣/驕ｸ謚樒判髱｢ using Guid(97f2e03059abe4f44ac213a09371311f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9b05c0e92b25c0d16c9d2e6c6d5e29') in 0.008869 seconds 
+  Import took 0.011758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.381144 seconds.
+  path: Assets/Scenes/Title髢｢騾｣/Title.unity
+  artifactKey: Guid(6f7632c5e19756f4b918eb2bb63c0400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title髢｢騾｣/Title.unity using Guid(6f7632c5e19756f4b918eb2bb63c0400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996c8fa2df82130512772c3dcda1133c') in 0.008794 seconds 
+  Import took 0.011621 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002737 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F9F75FC010 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FC37F010 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F308C3F0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F3320020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F2EEA9A0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FC63F000 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F7948020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F2E59ED0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F93AD030 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F308C3F0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F303DA80 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F766A7F0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F2DE4510 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Domain Reload Profiling:
+	ReloadAssembly (796ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (642ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.1 MB.
+System memory in use after: 73.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1922.
+Total: 2.258300 ms (FindLiveObjects: 0.159100 ms CreateObjectMapping: 0.057200 ms MarkObjects: 2.027700 ms  DeleteObjects: 0.013300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 149.055762 seconds.
+  path: Assets/Scenes/Title髢｢騾｣
+  artifactKey: Guid(1128e740da5349547aa2f523fd6a8817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title髢｢騾｣ using Guid(1128e740da5349547aa2f523fd6a8817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0866c972a23520ad997bf39cdd2f2d') in 0.006019 seconds 
+  Import took 0.008910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.575798 seconds.
+  path: Assets/Scenes/Title髢｢騾｣/Title.unity
+  artifactKey: Guid(6f7632c5e19756f4b918eb2bb63c0400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title髢｢騾｣/Title.unity using Guid(6f7632c5e19756f4b918eb2bb63c0400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36a515591a232fb14d74a589964e687') in 0.008788 seconds 
+  Import took 0.011113 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003329 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F9FBB17A00 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FB8A9D70 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F3394030 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FC08E010 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F2F79DD0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FB8A9D70 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F9147030 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FC08E010 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F303DA80 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FBB0DEB0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FC09CF00 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FBF41EF0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F2DE4510 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Domain Reload Profiling:
+	ReloadAssembly (861ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (710ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.1 MB.
+System memory in use after: 73.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1924.
+Total: 2.225400 ms (FindLiveObjects: 0.139500 ms CreateObjectMapping: 0.045900 ms MarkObjects: 2.026500 ms  DeleteObjects: 0.012800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.732957 seconds.
+  path: Assets/Scenes/LoadingBar
+  artifactKey: Guid(2b3c9343ddf2de34eb2999138195a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LoadingBar using Guid(2b3c9343ddf2de34eb2999138195a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b686a1139dd43d791697649290508936') in 0.008936 seconds 
+  Import took 0.011461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.340135 seconds.
+  path: Assets/Scenes/LoadingBar/Materials
+  artifactKey: Guid(e93223ee878250e418e2db81a3f17342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LoadingBar/Materials using Guid(e93223ee878250e418e2db81a3f17342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbb63266fb6acd01688a0230c08d594') in 0.007031 seconds 
+  Import took 0.009902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051325 seconds.
+  path: Assets/Scenes/LoadingBar/Materials/bar.png
+  artifactKey: Guid(49cd31aa148e113488b77a592ed41aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LoadingBar/Materials/bar.png using Guid(49cd31aa148e113488b77a592ed41aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9dcf940f1a26de17316304b6703f54') in 0.056540 seconds 
+  Import took 0.059164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Scenes/LoadingBar/Materials/bar_main.png
+  artifactKey: Guid(76890ad90c3c0fe4f892a8e5343cf550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LoadingBar/Materials/bar_main.png using Guid(76890ad90c3c0fe4f892a8e5343cf550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcaf329e34dc98f5895a79dc52f9491') in 0.020495 seconds 
+  Import took 0.023254 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002514 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FA1DAE8F00 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FA1E268010 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F3394030 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F2F1A9D0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FBEE5C60 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F2F1A9D0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F7948020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F2F1A9D0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F357C010 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F3394030 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FC09AE10 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9F97C9C30 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9FB878B00 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.794 seconds
+Domain Reload Profiling:
+	ReloadAssembly (794ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (641ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1420 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.1 MB.
+System memory in use after: 73.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1924.
+Total: 2.126500 ms (FindLiveObjects: 0.132500 ms CreateObjectMapping: 0.042900 ms MarkObjects: 1.937200 ms  DeleteObjects: 0.012900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21.295771 seconds.
+  path: Assets/Scenes/Prefabs/LoadingBar.prefab
+  artifactKey: Guid(de6796b87d4093a4191e31e4af45c497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prefabs/LoadingBar.prefab using Guid(de6796b87d4093a4191e31e4af45c497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf593dde1349c53dbf15e98e546007ca') in 0.033911 seconds 
+  Import took 0.036155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Scenes/Prefabs/Stage.prefab
+  artifactKey: Guid(ad8ef286fdcc2b24cba89a330e0d0291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prefabs/Stage.prefab using Guid(ad8ef286fdcc2b24cba89a330e0d0291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f36a935378fc27c19c4e602e302eb2a') in 0.037655 seconds 
+  Import took 0.039804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.707842 seconds.
+  path: Assets/Scenes/Material
+  artifactKey: Guid(03b6cf5d1a7471e4dbfd26e768644553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Material using Guid(03b6cf5d1a7471e4dbfd26e768644553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8edb7a86529bb98729ce233c9e102cd') in 0.006888 seconds 
+  Import took 0.009184 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
