@@ -11,17 +11,22 @@ public enum panelsetcolor
 
 public class CubeMove : MonoBehaviour
 {
+
+	//染める色を決定する
 	public panelsetcolor winnercolor;
 
+	//判定関数
 	private bool Colorgudge()
 	{
 
+		//現在のパネルの色を調べる
 		panelsetcolor checkcolor;
 
 		checkcolor = panelObject[0].GetComponent<ChangeColor>().mycolor;
 
 		Debug.Log("call" + checkcolor);
 
+		//すべての面を調べ、違うならfalseを返す
 		for (int i = 0; i < 6; i++)
 		{
 			if (checkcolor != panelObject[i].GetComponent<ChangeColor>().mycolor)
@@ -30,6 +35,7 @@ public class CubeMove : MonoBehaviour
 			}
 		}
 
+		//そろっていたらtrueを返す
 		if (checkcolor == winnercolor)
 		{
 			return true;
@@ -46,8 +52,10 @@ public class CubeMove : MonoBehaviour
 	public GameObject[] panelObject;
 	float cubeSizeHalf;                  //キューブの大きさの半分
 	bool isRotate = false;               //回転中に立つフラグ。回転中は入力を受け付けない
-	bool latestisRotate = false;
+	bool latestisRotate = false;         //回転しているかしていないかのフラグ
 
+	public GameObject clearCanvas; //クリア表示キャンバス
+	public bool gameEnd = false;
 
 	void Start()
 	{
@@ -65,56 +73,62 @@ public class CubeMove : MonoBehaviour
 			return;
 		}
 
+		//回転が終わっていたら入る
 		if (latestisRotate)
 		{
 			if (Colorgudge())
 			{
 				Debug.Log("win");
+
+				//canvasにメッセージを送る
+				clearCanvas.SendMessage("OnEnter");
+
+				gameEnd = true;
 			}
 
 			latestisRotate = false;
 		}
 
-		if (Input.GetKeyDown(KeyCode.RightArrow))
+		//ゲームが終わったら操作できなくなるようにする
+		if (!gameEnd)
 		{
+			//右
+			if (Input.GetKeyDown(KeyCode.RightArrow))
+			{
 
-			rotatePoint = transform.position + new Vector3(cubeSizeHalf, -cubeSizeHalf, 0f);
-			rotateAxis = new Vector3(0, 0, -1);
+				rotatePoint = transform.position + new Vector3(cubeSizeHalf, -cubeSizeHalf, 0f);
+				rotateAxis = new Vector3(0, 0, -1);
+			}
+
+			//左
+			if (Input.GetKeyDown(KeyCode.LeftArrow))
+			{
+
+				rotatePoint = transform.position + new Vector3(-cubeSizeHalf, -cubeSizeHalf, 0f);
+				rotateAxis = new Vector3(0, 0, 1);
+
+			}
+
+			//上
+			if (Input.GetKeyDown(KeyCode.UpArrow))
+			{
+				rotatePoint = transform.position + new Vector3(0f, -cubeSizeHalf, cubeSizeHalf);
+				rotateAxis = new Vector3(1, 0, 0);
+			}
+
+			//下
+			if (Input.GetKeyDown(KeyCode.DownArrow))
+			{
+				rotatePoint = transform.position + new Vector3(0f, -cubeSizeHalf, -cubeSizeHalf);
+				rotateAxis = new Vector3(-1, 0, 0);
+			}
+
+			// 入力がない時はコルーチンを呼び出さないようにする
+			if (rotatePoint == Vector3.zero)
+				return;
+
+			StartCoroutine(MoveCube());
 		}
-		if (Input.GetKeyDown(KeyCode.LeftArrow))
-		{
-
-			rotatePoint = transform.position + new Vector3(-cubeSizeHalf, -cubeSizeHalf, 0f);
-			rotateAxis = new Vector3(0, 0, 1);
-
-		}
-		if (Input.GetKeyDown(KeyCode.UpArrow))
-		{
-			rotatePoint = transform.position + new Vector3(0f, -cubeSizeHalf, cubeSizeHalf);
-			rotateAxis = new Vector3(1, 0, 0);
-		}
-		if (Input.GetKeyDown(KeyCode.DownArrow))
-		{
-			rotatePoint = transform.position + new Vector3(0f, -cubeSizeHalf, -cubeSizeHalf);
-			rotateAxis = new Vector3(-1, 0, 0);
-		}
-
-		// 入力がない時はコルーチンを呼び出さないようにする
-		if (rotatePoint == Vector3.zero)
-			return;
-
-		StartCoroutine(MoveCube());
-
-		//Debug.Log("colorgudge");
-
-
-
-
-
-
-
-
-
 
 	}
 
@@ -150,19 +164,4 @@ public class CubeMove : MonoBehaviour
 		yield break;
 	}
 
-
-	//bool ObjDic(Vector3 DirVec)
-	//   {
-	//	RaycastHit hit;
-
-	//	Physics.Raycast(transform.position, DirVec, out hit);
-	//	Debug.DrawRay(transform.position, DirVec);
-
-	//	if(hit.distance <= 0.8)
-	//       {
-	//		return true;
-	//       }
-
-	//	return false;
-	//}
 }
