@@ -5,8 +5,13 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 637743657620000000
     m_Hash: 2480288911
+=======
+      ticks: 637749696686464171
+    m_Hash: 3680781555
+>>>>>>> StageCleate
   m_LockFileStatus:
     m_FilePath: C:/Users/GA3/Documents/GitHub/FukuokaGameTaishou/PazPaz/Packages/packages-lock.json
     m_PathExists: 1
