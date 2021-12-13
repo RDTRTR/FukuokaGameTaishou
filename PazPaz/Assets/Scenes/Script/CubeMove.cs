@@ -142,7 +142,7 @@ public class CubeMove : MonoBehaviour
 		float sumAngle = 0f; //angleの合計を保存
 		while (sumAngle < 90f)
 		{
-			cubeAngle = 0.5f; //ここを変えると回転速度が変わる
+			cubeAngle = 1.0f; //ここを変えると回転速度が変わる
 			sumAngle += cubeAngle;
 
 			// 90度以上回転しないように値を制限
