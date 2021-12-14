@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public enum panelsetcolor
 {
@@ -49,22 +50,57 @@ public class CubeMove : MonoBehaviour
 	Vector3 rotateAxis = Vector3.zero;   //回転軸
 	float cubeAngle = 0f;                //回転角度
 
-	public GameObject[] panelObject;
+	public GameObject[] panelObject; //配列に自分はどのパネルなのかを入れる
+    ChangeColor[] colorcs = new ChangeColor[6]; //配列に要素を代入
 	float cubeSizeHalf;                  //キューブの大きさの半分
 	bool isRotate = false;               //回転中に立つフラグ。回転中は入力を受け付けない
 	bool latestisRotate = false;         //回転しているかしていないかのフラグ
 
 	public GameObject clearCanvas; //クリア表示キャンバス
-	public bool gameEnd = false;
+	public GameObject playSound; //SE
+	public bool gameEnd = false; //ゲーム終了フラグ
+
+	public int count; //残りカウント
+
+	public Text countText; //カウントのテキスト
+
+	
 
 	void Start()
 	{
+		count = 0; //カウントを初期化
+
 		cubeSizeHalf = transform.localScale.x / 2f;
+
+		//6回回してそれぞれにパネルの色を覚えさせる
+		for(int i = 0; i < 6; i++)
+        {
+			//Debug.Log("A" + i);
+			colorcs[i] = panelObject[i].GetComponent<ChangeColor>();
+		}
+
+		countText.text = "6"; //残りの染めないといけない面の数
+
+		
 	}
 
 
 	void Update()
 	{
+		count = 0; //フレームごとに初期化
+
+		//すべての面を見てあっていない面の数を見る
+		for (int i = 0; i < 6; i++)
+		{
+			if (colorcs[i].mycolor != winnercolor)
+			{
+				count++;
+			}
+
+		}
+
+		countText.text = count.ToString(); //残りの数を表示する
+
 		//回転中は入力を受け付けない
 		if (isRotate)
 		{
@@ -80,14 +116,19 @@ public class CubeMove : MonoBehaviour
 			{
 				Debug.Log("win");
 
-				//canvasにメッセージを送る
+				//canvasに送る
 				clearCanvas.SendMessage("OnEnter");
+
+				//playSoundに送る
+				playSound.SendMessage("OnEnter");
 
 				gameEnd = true;
 			}
 
 			latestisRotate = false;
 		}
+
+		
 
 		//ゲームが終わったら操作できなくなるようにする
 		if (!gameEnd)

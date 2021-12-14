@@ -1,13 +1,14 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ChangeColor : MonoBehaviour
 {
     // Unityエディタ上で変えたい色を指定できる。
-    public Color color = Color.red;
+    public Color color;
     public GameObject plane;
-    int count = 0;
     bool changeflag = false;
     public panelsetcolor mycolor = panelsetcolor.White;
+    public GameObject playSound; //SE
 
     //オブジェクトが衝突したとき
     void OnTriggerEnter(Collider other)
@@ -19,6 +20,9 @@ public class ChangeColor : MonoBehaviour
             plane.gameObject.GetComponent<Renderer>().material = change;
 
             mycolor = panelsetcolor.Blue;
+
+            playSound.SendMessage("OnStart");
+
         }
 
         if (other.gameObject.name == "Red")
@@ -28,6 +32,9 @@ public class ChangeColor : MonoBehaviour
             plane.gameObject.GetComponent<Renderer>().material = change;
 
             mycolor = panelsetcolor.Red;
+
         }
+        
+        
     }
 }
