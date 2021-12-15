@@ -6771,5 +6771,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8831698081840909565, guid: 3e2d0b9781e4a174b9b035dda5f93118, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 165.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e2d0b9781e4a174b9b035dda5f93118, type: 3}
