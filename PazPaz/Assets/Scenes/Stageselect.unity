@@ -1337,7 +1337,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Stage 2
+  m_Text: "\u3055\u3070\u304F"
 --- !u!222 &235238154
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9360,7 +9360,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Stage 1
+  m_Text: "\u3082\u308A"
 --- !u!222 &2090073107
 CanvasRenderer:
   m_ObjectHideFlags: 0
