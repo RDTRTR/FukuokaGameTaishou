@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1415; Version 2009; 64bit' Language: 'ja' Physical Memory: 16205 MB
+OS: 'Windows 10 Home; OS build 19044.1415; Version 2009; 64bit' Language: 'ja' Physical Memory: 16205 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/GA3/Documents/GitHub/FukuokaGameTaishou/PazPaz
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50496
+59352
 Successfully changed project path to: C:/Users/GA3/Documents/GitHub/FukuokaGameTaishou/PazPaz
 C:/Users/GA3/Documents/GitHub/FukuokaGameTaishou/PazPaz
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 26.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,117 +35,117 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001787 seconds.
+Registered in 0.002527 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.612 seconds
+- Completed reload, in  2.299 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1612ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (2300ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (333ms)
-			LoadAssemblies (43ms)
+		EndReloadAssembly (420ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (122ms)
+			SetupTypeCache (154ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (129ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (159ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (25ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (63ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002719 seconds.
+Registered in 0.003343 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000210E9A99040 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-00000199FB98AC80 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E9A99040 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000199FB9ACD40 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EDB3C030 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001986076F760 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EDEAE9A0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000019861C19020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EF2A9830 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000019860874230 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EDF5D020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000019860795020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EF2A9830 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001986076F760 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EDF5D020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000019861B07020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EF2A9830 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000019860874230 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EDFDF230 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001986076F760 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EDEAE9A0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000199FBD38140 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EE47B010 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000199FBC26010 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EE581C20 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000019860874230 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EEC1F490 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000019860577010 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.835 seconds
+- Completed reload, in  0.999 seconds
 Domain Reload Profiling:
-	ReloadAssembly (836ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1000ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (656ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (790ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (222ms)
+			SetupTypeCache (266ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (250ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (298ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1449 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.4 MB.
-System memory in use after: 73.5 MB.
+System memory in use before: 78.8 MB.
+System memory in use after: 78.9 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1891.
-Total: 2.177300 ms (FindLiveObjects: 0.127400 ms CreateObjectMapping: 0.041700 ms MarkObjects: 1.956000 ms  DeleteObjects: 0.051500 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1901.
+Total: 2.826700 ms (FindLiveObjects: 0.182100 ms CreateObjectMapping: 0.077800 ms MarkObjects: 2.491000 ms  DeleteObjects: 0.074600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
@@ -160,72 +160,72 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Main.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9976230dc1471e03059459023cf8ff98') in 0.014041 seconds 
-  Import took 0.015992 seconds .
+  path: Assets/Scenes/Stageselect.unity
+  artifactKey: Guid(4a5ecba9d9e76a04a813f3e3c6ca68c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stageselect.unity using Guid(4a5ecba9d9e76a04a813f3e3c6ca68c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f250a6702bba45e471b23a8d5e78057') in 0.016552 seconds 
+  Import took 0.019122 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002538 seconds.
+Registered in 0.002919 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000210E990EE40 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-00000199FBB13220 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F1562250 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000198652DE840 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E9725470 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000198654E4030 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E9745490 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001986075DA40 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EEDFFF20 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000199FC1FA2A0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EE65D650 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000019865400E10 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E9A8E010 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000198654E4030 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EF28F020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000019861B07020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EEDFFF20 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000019861B2D230 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210ED904030 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000199FBFD4830 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E9745490 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001986075DA40 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EDFB1020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000199FBEA3DB0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F148D020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001986075DA40 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F18CDC40 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000019860765930 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.771 seconds
+- Completed reload, in  0.769 seconds
 Domain Reload Profiling:
-	ReloadAssembly (771ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (770ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (620ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (630ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
+			SetupTypeCache (221ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (227ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (230ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (57ms)
+				BeforeProcessingInitializeOnLoad (60ms)
 				ProcessInitializeOnLoadAttributes (155ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -233,818 +233,11 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.8 MB.
-System memory in use after: 72.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1893.
-Total: 2.071200 ms (FindLiveObjects: 0.126400 ms CreateObjectMapping: 0.040700 ms MarkObjects: 1.890600 ms  DeleteObjects: 0.013000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 799.355295 seconds.
-  path: Assets/Scenes/Title
-  artifactKey: Guid(9b5959787b46cea4a906ad90e8810e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Title using Guid(9b5959787b46cea4a906ad90e8810e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559b5c2321a5e2296d4d7865a3045077') in 0.009827 seconds 
-  Import took 0.012506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051135 seconds.
-  path: Assets/Scenes/Title/LightingData.asset
-  artifactKey: Guid(2a345622ad86c5c47a649aa58609eac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Title/LightingData.asset using Guid(2a345622ad86c5c47a649aa58609eac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc932a11e6f64a9481b8a123d576ee8') in 0.032138 seconds 
-  Import took 0.034311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Scenes/Title/ReflectionProbe-0.exr
-  artifactKey: Guid(2369bc205f5aeee47940c563306c1345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Title/ReflectionProbe-0.exr using Guid(2369bc205f5aeee47940c563306c1345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40de71c77945ae396df382cb79d4d03') in 0.080599 seconds 
-  Import took 0.082760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.722374 seconds.
-  path: Assets/Title(select)
-  artifactKey: Guid(d128a77107083e245a2ec7795e46e293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Title(select) using Guid(d128a77107083e245a2ec7795e46e293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6796b4d56b66bcbdef56ab7452409b2b') in 0.009929 seconds 
-  Import took 0.013096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.310287 seconds.
-  path: Assets/Title関連
-  artifactKey: Guid(9545fd79408d2a647be24f2dc1a88751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Title関連 using Guid(9545fd79408d2a647be24f2dc1a88751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecb57489bf1cf39d4fd95bc656bf9e3') in 0.009292 seconds 
-  Import took 0.012284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049508 seconds.
-  path: Assets/Title関連/Cube.prefab
-  artifactKey: Guid(b1cbd53c9d38e324eae6e00821d9a96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Title関連/Cube.prefab using Guid(b1cbd53c9d38e324eae6e00821d9a96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3daa34e7c3a4e14789615d4cbe2582bb') in 0.034037 seconds 
-  Import took 0.037154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Title関連/EventSystem.prefab
-  artifactKey: Guid(67b81c4e7c82ed64895f3f0c92c28f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Title関連/EventSystem.prefab using Guid(67b81c4e7c82ed64895f3f0c92c28f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d5c02a7e66ad20c73f23886146cadc') in 0.014218 seconds 
-  Import took 0.017400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/Title関連/Gamesystem.prefab
-  artifactKey: Guid(d7d0b200533a62d4a8f4f155c9dd4298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Title関連/Gamesystem.prefab using Guid(d7d0b200533a62d4a8f4f155c9dd4298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e653da6329e7df68eccb54cd994079da') in 0.011712 seconds 
-  Import took 0.014745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Title関連/TitleWindow.prefab
-  artifactKey: Guid(9c0bf1c6fa9a1f645af8119888f365e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Title関連/TitleWindow.prefab using Guid(9c0bf1c6fa9a1f645af8119888f365e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bdc05659bc59a179fc8eacc0c026aa') in 0.041741 seconds 
-  Import took 0.045130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.325171 seconds.
-  path: Assets/Title関連/sozai_24406.png
-  artifactKey: Guid(7afd679d954391d4b818be9b11a052b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Title関連/sozai_24406.png using Guid(7afd679d954391d4b818be9b11a052b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbad7dbfdeccf23ecec4cc6b1c24d92f') in 0.035090 seconds 
-  Import took 0.037490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.272639 seconds.
-  path: Assets/Title関連/sozai_24406.png
-  artifactKey: Guid(7afd679d954391d4b818be9b11a052b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Title関連/sozai_24406.png using Guid(7afd679d954391d4b818be9b11a052b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3f9d595e7b13d002f5c6fa78a3e318') in 0.027477 seconds 
-  Import took 0.030106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 542.005594 seconds.
-  path: Assets/Scenes/Image
-  artifactKey: Guid(6a3d1986b38d8604f9128617eba76baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Image using Guid(6a3d1986b38d8604f9128617eba76baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3daaf905fd2991d0b2c669ac2ac94ad') in 0.006532 seconds 
-  Import took 0.009427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.803775 seconds.
-  path: Assets/Scenes/Image/101.143.174.115.gif
-  artifactKey: Guid(98273fa491b495140bcea1d91b730c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Image/101.143.174.115.gif using Guid(98273fa491b495140bcea1d91b730c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dcb58514c2d5986c9a5fd8ae219e8b') in 0.021163 seconds 
-  Import took 0.024248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Scenes/Image/219.118.166.241 (1).gif
-  artifactKey: Guid(f08a73d4ab7ee1344ac9f1ea49c59fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Image/219.118.166.241 (1).gif using Guid(f08a73d4ab7ee1344ac9f1ea49c59fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae349a6dfaf4e8a59fd472b234fa512') in 0.019460 seconds 
-  Import took 0.022435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Scenes/Image/BottunBlue.png
-  artifactKey: Guid(ab0970636a552fb478da616de083c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Image/BottunBlue.png using Guid(ab0970636a552fb478da616de083c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44b4c073214af1c7524bf69372b2e03') in 0.034023 seconds 
-  Import took 0.037431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Scenes/Image/219.118.166.241.gif
-  artifactKey: Guid(f2a3ea68db313c943815fb43ea2fe58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Image/219.118.166.241.gif using Guid(f2a3ea68db313c943815fb43ea2fe58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08694a3b79f73e5637704e5c25538c3') in 0.018761 seconds 
-  Import took 0.022386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 227.596743 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Materials/Blank.mat
-  artifactKey: Guid(932bfbb102946e04796ee9ade9385119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Materials/Blank.mat using Guid(932bfbb102946e04796ee9ade9385119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465e7d5ecde61dfb8cedaa50c1f9ed51') in 0.081563 seconds 
-  Import took 0.085451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Gray.3.mat
-  artifactKey: Guid(1b487e4aa512c6c46b231d5aacdceae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Gray.3.mat using Guid(1b487e4aa512c6c46b231d5aacdceae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0b86885a3bd1996fb0fe81a7cf6bb8') in 0.015504 seconds 
-  Import took 0.018542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Flat Textures Pack/Materials/Desert_Sand_A.mat
-  artifactKey: Guid(f112b988042d5844d86a06f124d4ea41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flat Textures Pack/Materials/Desert_Sand_A.mat using Guid(f112b988042d5844d86a06f124d4ea41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ecf9031b65b7aa9686fedd9b8b1aaa') in 0.048794 seconds 
-  Import took 0.051815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Brown.3.mat
-  artifactKey: Guid(2852b271d0d088643a66c25efe4b5aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Brown.3.mat using Guid(2852b271d0d088643a66c25efe4b5aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff44bfd2c96118448dfffa004dc0603') in 0.017475 seconds 
-  Import took 0.020644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bfc51c5222557aa47c55c3d1b82acd') in 0.108573 seconds 
-  Import took 0.111789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_06_Sunless.mat
-  artifactKey: Guid(5c8d5031ce45e4962818ca2b5426a8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_06_Sunless.mat using Guid(5c8d5031ce45e4962818ca2b5426a8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28c77ee328f55dc129670bdc717717a') in 0.037975 seconds 
-  Import took 0.041098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Brown.6.mat
-  artifactKey: Guid(c47a8046d422cf44ab127456e4917876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Brown.6.mat using Guid(c47a8046d422cf44ab127456e4917876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de7c76d589bfc1097a51112eacb12fe') in 0.016160 seconds 
-  Import took 0.019238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Green.1.mat
-  artifactKey: Guid(05c3b35dce48bfb44a9ce93ae526df18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Green.1.mat using Guid(05c3b35dce48bfb44a9ce93ae526df18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab59b9c2900a43161dd79af619ed1ade') in 0.019090 seconds 
-  Import took 0.022215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Green.12.mat
-  artifactKey: Guid(546fdfe5df99cb34bb14981f56cfca29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Green.12.mat using Guid(546fdfe5df99cb34bb14981f56cfca29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4c28dd131439228d2985ded9d1a956') in 0.016503 seconds 
-  Import took 0.019962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Brown.2.mat
-  artifactKey: Guid(f7c2deb7be33c61418c105b4da4da2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Brown.2.mat using Guid(f7c2deb7be33c61418c105b4da4da2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085403001ebb2b330ba1b78387ab8f91') in 0.018087 seconds 
-  Import took 0.021460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Green.5.mat
-  artifactKey: Guid(35efd64ed4769b8459707c2739efe32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Green.5.mat using Guid(35efd64ed4769b8459707c2739efe32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235a5b87536ea293f579c8d85b90a2e6') in 0.016315 seconds 
-  Import took 0.019409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Brown.7.mat
-  artifactKey: Guid(4fe563c5f58ef3f428825ed56c445b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Brown.7.mat using Guid(4fe563c5f58ef3f428825ed56c445b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9462bad2214b4a13c3f10eef600c34c9') in 0.018481 seconds 
-  Import took 0.021870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_01.mat
-  artifactKey: Guid(ab675e6698bde46fd87143fb0d7580cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_01.mat using Guid(ab675e6698bde46fd87143fb0d7580cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566da0051dc5dbedf000e3d6204fb68d') in 0.023835 seconds 
-  Import took 0.027100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c4f4f2da4d2ab57d901e0f40ae3f2f') in 0.052148 seconds 
-  Import took 0.056164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Green.6.mat
-  artifactKey: Guid(487de112f12801e47ab0f2a09cce7854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Green.6.mat using Guid(487de112f12801e47ab0f2a09cce7854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299dd3c823336ef897a808545b090658') in 0.015478 seconds 
-  Import took 0.018444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Green.10.mat
-  artifactKey: Guid(aa67d82998ecf8841a3adf9bfa27b1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Green.10.mat using Guid(aa67d82998ecf8841a3adf9bfa27b1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac225ff8d2ec8e43b2476309ef50267') in 0.015502 seconds 
-  Import took 0.018403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Green.3.mat
-  artifactKey: Guid(94f42fcaf1b6c224c99738b35fda2bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Green.3.mat using Guid(94f42fcaf1b6c224c99738b35fda2bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e635c7c2f859c07076157aeda9735f6') in 0.019964 seconds 
-  Import took 0.023091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482a362b8fe5ce36b302051eaf90a735') in 0.096781 seconds 
-  Import took 0.099515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Gray.4.mat
-  artifactKey: Guid(55ac68c33cb2d144a9976df607b5e754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Gray.4.mat using Guid(55ac68c33cb2d144a9976df607b5e754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2fb47d08b4f0aff6310145641c03f2') in 0.014475 seconds 
-  Import took 0.017193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Brown.15.mat
-  artifactKey: Guid(27eb693623b74ae409ad01480c04d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Brown.15.mat using Guid(27eb693623b74ae409ad01480c04d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bba09ceaee411d08a26e511ea2f8fd4') in 0.014836 seconds 
-  Import took 0.017608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Gray.2.mat
-  artifactKey: Guid(e2f44d83259a3c14abd33197677dbc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Gray.2.mat using Guid(e2f44d83259a3c14abd33197677dbc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2ded6b56f08bd0de4db2a24cebc513') in 0.019180 seconds 
-  Import took 0.021985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Green.8.mat
-  artifactKey: Guid(7a0a96a93ebc4d94a9f9d22e70389f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Green.8.mat using Guid(7a0a96a93ebc4d94a9f9d22e70389f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5143e71b4305a7e0d0549c67510bccfb') in 0.014880 seconds 
-  Import took 0.017585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Brown.8.mat
-  artifactKey: Guid(fc45bd3e9d781c6469cb7e33fd1c8bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Brown.8.mat using Guid(fc45bd3e9d781c6469cb7e33fd1c8bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60778d996e75d16966277afa0f302f4') in 0.013598 seconds 
-  Import took 0.016313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b7c8c3e3c9a45adbdca63c88707d17') in 0.047815 seconds 
-  Import took 0.050467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Brown.14.mat
-  artifactKey: Guid(7e5b0a9678b8426468b771b1050eeae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Brown.14.mat using Guid(7e5b0a9678b8426468b771b1050eeae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e49a49a507defee35520d078cd6cc13') in 0.013139 seconds 
-  Import took 0.015811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Flat Textures Pack/Materials/Desert_Sand.mat
-  artifactKey: Guid(3b85b3f360cf9ec43bec0706d0a03147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flat Textures Pack/Materials/Desert_Sand.mat using Guid(3b85b3f360cf9ec43bec0706d0a03147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2847579dba836c9a07eee4f5874710fa') in 0.069282 seconds 
-  Import took 0.072827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Brown.4.mat
-  artifactKey: Guid(ca030f1a8877487408d9e0ba65b2ec80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Brown.4.mat using Guid(ca030f1a8877487408d9e0ba65b2ec80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a5c99989205b9c29fdce8edd8c0775') in 0.015734 seconds 
-  Import took 0.018202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Green.2.mat
-  artifactKey: Guid(59ef7dc611ee0474092dff5c29ab828f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Green.2.mat using Guid(59ef7dc611ee0474092dff5c29ab828f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d37125d964466ad6b5799dd5454773f') in 0.012340 seconds 
-  Import took 0.014972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Brown.5.mat
-  artifactKey: Guid(123ed9969563dc5468cd867af56caab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Brown.5.mat using Guid(123ed9969563dc5468cd867af56caab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c0e9da545bc5366979afd4eff7ae4c') in 0.012646 seconds 
-  Import took 0.015072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Green.11.mat
-  artifactKey: Guid(9bceac9e437c11447a0839f938aaa270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Green.11.mat using Guid(9bceac9e437c11447a0839f938aaa270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c663a67ddfa936c2ad4281ff1a2e7502') in 0.012875 seconds 
-  Import took 0.015246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Green.13.mat
-  artifactKey: Guid(824d3adafd1c2d64b8c82f09ed60bfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Green.13.mat using Guid(824d3adafd1c2d64b8c82f09ed60bfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ea49943aced986ec5cc72ceaa27bc1') in 0.013239 seconds 
-  Import took 0.015739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Brown.9.mat
-  artifactKey: Guid(94387ac3fe852d549966d245def277be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Brown.9.mat using Guid(94387ac3fe852d549966d245def277be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6136f62e7191ce3f6ac4e59b2ba7db') in 0.014181 seconds 
-  Import took 0.016515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Green.7.mat
-  artifactKey: Guid(0f7806b54edf71c4796d1c67899856bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Green.7.mat using Guid(0f7806b54edf71c4796d1c67899856bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269ace6179a206ceaff1847040031a24') in 0.012510 seconds 
-  Import took 0.014992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.321206 seconds.
-  path: Assets/Lowpoly Style/Free Rocks and Plants/Materials/MAT_MAIN.mat
-  artifactKey: Guid(b218d35c8dc65164892039ea0aea3b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lowpoly Style/Free Rocks and Plants/Materials/MAT_MAIN.mat using Guid(b218d35c8dc65164892039ea0aea3b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e44ce7c3bdc4dbf081d3be50f61f8a') in 0.017680 seconds 
-  Import took 0.020826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Materials/Material.mat
-  artifactKey: Guid(a5ab27f24d140594197755b8c9ee7179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Materials/Material.mat using Guid(a5ab27f24d140594197755b8c9ee7179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d183e34219ef83f9275166fa76a119') in 0.022693 seconds 
-  Import took 0.026174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Pink.1.mat
-  artifactKey: Guid(4de868b1c656aa948a9734db55fa6df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Pink.1.mat using Guid(4de868b1c656aa948a9734db55fa6df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf63b4c846c04cb8f578d793c289e4a') in 0.017357 seconds 
-  Import took 0.020397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Scenes/Material/PlaneMate.mat
-  artifactKey: Guid(2b73fea06005cf34fb865a4d4c7e7029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Material/PlaneMate.mat using Guid(2b73fea06005cf34fb865a4d4c7e7029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee27e410c463598f70421ba65f9ce39') in 0.023921 seconds 
-  Import took 0.026940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Scenes/Material/New Material 1.mat
-  artifactKey: Guid(ea88e0d205707734d993ca22021c79e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Material/New Material 1.mat using Guid(ea88e0d205707734d993ca22021c79e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca947f1f3bd2b26c9ecebe0fdf28c6b') in 0.018339 seconds 
-  Import took 0.021300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Tile3D/Materials/New Material.mat
-  artifactKey: Guid(ea93daa81cc74f64093e778579fabe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile3D/Materials/New Material.mat using Guid(ea93daa81cc74f64093e778579fabe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74505d870b1664aa7ab752d77da1b1be') in 0.021064 seconds 
-  Import took 0.024117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Purple.1.mat
-  artifactKey: Guid(f9e8a256b2e009743bcefbdabbb05382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Purple.1.mat using Guid(f9e8a256b2e009743bcefbdabbb05382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585e1a4e402f879a600d710243009fe0') in 0.017974 seconds 
-  Import took 0.021007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Scenes/Material/New Material.mat
-  artifactKey: Guid(f72c4a2314bc4264a89f4ef0c9fde5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Material/New Material.mat using Guid(f72c4a2314bc4264a89f4ef0c9fde5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6051341cce844bd5b75be55ce8398097') in 0.016597 seconds 
-  Import took 0.020110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Purple.2.mat
-  artifactKey: Guid(e773be4e8e6c49f41bb67bfe941451c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Purple.2.mat using Guid(e773be4e8e6c49f41bb67bfe941451c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0a51bf7d1d7e4caa553abea906902b') in 0.016356 seconds 
-  Import took 0.019621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/LowPoly Environment Pack/FBX/Materials/Orange.3.mat
-  artifactKey: Guid(0933253977cd0454b989b8bc25bbdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/FBX/Materials/Orange.3.mat using Guid(0933253977cd0454b989b8bc25bbdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f831f7ee6a97ddd1df25490ebc931a8e') in 0.015432 seconds 
-  Import took 0.018869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.192355 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Materials/Red.mat
-  artifactKey: Guid(6a6944f4904547e4fb039789da5fcd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Materials/Red.mat using Guid(6a6944f4904547e4fb039789da5fcd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae47a408cb0229133c7db71b31d0e9ab') in 0.016521 seconds 
-  Import took 0.019474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Free Low Poly Desert Pack/Materials/Vertex Color.mat
-  artifactKey: Guid(77f34d55cab75c741af8e49d369939ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Low Poly Desert Pack/Materials/Vertex Color.mat using Guid(77f34d55cab75c741af8e49d369939ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd755b70cfe4ef164ba3543883d69cd00') in 0.019308 seconds 
-  Import took 0.022254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/FreeVegetation-LowPolyNature/FreeVegetation/Materials/TreeLeaf_1.mat
-  artifactKey: Guid(22ae8ca533ae0ff45a92966006a65514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeVegetation-LowPolyNature/FreeVegetation/Materials/TreeLeaf_1.mat using Guid(22ae8ca533ae0ff45a92966006a65514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9f67402d8eca21d56e9aa4b9b2fc64') in 0.025068 seconds 
-  Import took 0.028117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Flat Textures Pack/Materials/Water_D.mat
-  artifactKey: Guid(3584c50ec7d45f348a5aa57d24bb5737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flat Textures Pack/Materials/Water_D.mat using Guid(3584c50ec7d45f348a5aa57d24bb5737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd0655a3216f9c6bcedd8226b1a82ff') in 0.048887 seconds 
-  Import took 0.054246 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002878 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000210F282ACB0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E94BBE40 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F258C010 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E9745490 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E90C7020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EE65D650 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E90C7020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2A1B030 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E90C7020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F0F7C020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E9745490 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EE005020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EF5E4020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F1C00080 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.851 seconds
-Domain Reload Profiling:
-	ReloadAssembly (851ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (685ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (249ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.5 MB.
-System memory in use after: 75.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1948.
-Total: 2.357000 ms (FindLiveObjects: 0.137800 ms CreateObjectMapping: 0.045300 ms MarkObjects: 2.157300 ms  DeleteObjects: 0.016000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 258.512961 seconds.
-  path: Assets/Scenes/Stage2.unity
-  artifactKey: Guid(95f3012c7a2dd99429a98b240f072ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Stage2.unity using Guid(95f3012c7a2dd99429a98b240f072ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed56aa266ea0a6cdad9ba7405149f84') in 0.017218 seconds 
-  Import took 0.019326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.558230 seconds.
-  path: Assets/Title関連/image/Button.png
-  artifactKey: Guid(03eee55ce5e35574b9a497adbcc77514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Title関連/image/Button.png using Guid(03eee55ce5e35574b9a497adbcc77514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22d5e51ebb813b6fd7e28c9e4c85b33') in 0.066071 seconds 
-  Import took 0.069628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Clean Title Transitions/Sprites/Sliced/Line - Stroke 10.png
-  artifactKey: Guid(eef5969f80586b54eade0436c948d1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Title Transitions/Sprites/Sliced/Line - Stroke 10.png using Guid(eef5969f80586b54eade0436c948d1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63580f5457df0e01716e29f7a584b83') in 0.029995 seconds 
-  Import took 0.033217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Title(select)/image/Button4.png
-  artifactKey: Guid(7985ed0117605c84d84c6a279ff574ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Title(select)/image/Button4.png using Guid(7985ed0117605c84d84c6a279ff574ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b31282446e947879769ad9846158e22') in 0.023897 seconds 
-  Import took 0.027046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Clean Title Transitions/Sprites/Sliced/Square.png
-  artifactKey: Guid(b01a5c87df1c49c4eb8f178c32e13c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Title Transitions/Sprites/Sliced/Square.png using Guid(b01a5c87df1c49c4eb8f178c32e13c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b74c85ae8bd153ec237517e4c1acea') in 0.026848 seconds 
-  Import took 0.030073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Title(select)/image/Button3.png
-  artifactKey: Guid(e2d278f5b476aa841935d126e6124399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Title(select)/image/Button3.png using Guid(e2d278f5b476aa841935d126e6124399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e330368fe02cc43b3cdd57580986c28') in 0.022802 seconds 
-  Import took 0.026660 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002599 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000210F25619C0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E9544230 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2DC4020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E9745490 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F0F4DED0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F21D9F20 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E90C7020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EE791500 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F0F4DED0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E96E4C00 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E9745490 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EDC74010 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F3951BB0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F18CDC40 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.780 seconds
-Domain Reload Profiling:
-	ReloadAssembly (780ms)
-		BeginReloadAssembly (93ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (633ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (213ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (240ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.5 MB.
-System memory in use after: 75.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1954.
-Total: 2.177600 ms (FindLiveObjects: 0.177200 ms CreateObjectMapping: 0.051800 ms MarkObjects: 1.935200 ms  DeleteObjects: 0.012300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003283 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000210F25619C0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210EF18D850 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2DC4020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E9745490 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E922B010 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F267DBE0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F309F020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F363F020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E90C7020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F0F7C020 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210E9745490 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F22968B0 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F232DC70 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F23A1010 doesn't match image C:\Users\GA3\Documents\GitHub\FukuokaGameTaishou\PazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.177 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1177ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (962ms)
-			LoadAssemblies (115ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (331ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (350ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (239ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.5 MB.
-System memory in use after: 75.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1956.
-Total: 4.332600 ms (FindLiveObjects: 0.310500 ms CreateObjectMapping: 0.137400 ms MarkObjects: 3.853200 ms  DeleteObjects: 0.029500 ms)
+System memory in use before: 77.2 MB.
+System memory in use after: 77.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1903.
+Total: 2.205600 ms (FindLiveObjects: 0.134400 ms CreateObjectMapping: 0.046700 ms MarkObjects: 2.011700 ms  DeleteObjects: 0.012000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
